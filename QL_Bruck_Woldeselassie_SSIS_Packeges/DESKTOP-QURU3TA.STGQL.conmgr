@@ -1,0 +1,10 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DESKTOP-QURU3TA.STGQL"
+  DTS:DTSID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=DESKTOP-QURU3TA;Initial Catalog=STGQL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
