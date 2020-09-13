@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Bruck_Woldeselassie_LendingQB"
   DTS:PackageType="5"
-  DTS:VersionBuild="187"
-  DTS:VersionGUID="{AA1E96D6-C989-459C-BF61-BC9300A6998B}">
+  DTS:VersionBuild="189"
+  DTS:VersionGUID="{38768FFD-0060-4CB0-95E0-1F266B751C69}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -92,7 +92,7 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACqAGVtD/ED3BKX8zPqIRc4x5iD0U6Eg0GD1VEkmM4h9wAAAAAOgAAAAAIAACAAAAD+V5WPn+36vtQOhH0zHdGyPRTth4FeZ87+yRGe7BNw1TAAAACOSdgru3LssurqNEL3YXUkDFxWn5uAOWmYupHYMi+4NdWCq7mnWfaqYlEG/jZMZHhAAAAAR3DZ/GuHHRnVC8QSxWgK/psPvDgo3mGnWYABgpPFM8eXvTTaRsnjQd0jvdPZ7Jg9Y4GHKT/roVrrdcLVVAEeWQ</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACP6Ht750NIrwfXw+VkPY8FNJe80G6hkpqAzl7MNvkBBwAAAAAOgAAAAAIAACAAAAD2dzcRIhy+JAlWKTzrBM6IcbniEoF51ZE9BkXf4pbYljAAAAA3HCXUBUOnllM9Hjwpum/ivdicV8dZQSwdSh+/ZxSfpJtFtsMn9RzyPiGzdXvomGZAAAAAyZBbOpGsynue/Y+61Rm53ExRfjwPi5T7wqVQIe9IasdJOwe7TYy/qbFtS16uL/EeNm5rkMfFSMq1/kGhrJ3CIA</Password>
         </ODataConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -109,7 +109,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAtaBLlqTze5rz/psEx4dP4420yUUxHPgYokj5pOM/z/gAAAAAOgAAAAAIAACAAAABgxibjI0bFFi15cUzPrdjB1WiIdzzzZWf9XcqZV3xPIjAAAADdYnyYlxv72KyuZSdF16NmL1jnSDVcogjBO0tNuOySUm80RNrNrhBJbvzCkOYJn75AAAAATRB5kouzqe/5o02+cWV6Nvb+dTYllN7iTn+itVhasma1wZxp6k7d3T6OtIKNu0i+yTaGOq5CcNg3vU5gCJoPLg</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAcNrohFBPDkfHA3jmqhLrl4oic6/4bfuPRv8o7ncMwfgAAAAAOgAAAAAIAACAAAADf28HpgNGY4taijP4fHcjko3Q7b4i97Nb844JZD5STejAAAAC/jmh7QaYgg14eG4qCGoSzkg3SjE/xGiIQsxke3NoJ/fetX9WhBriMQUCsX9ocbdFAAAAAeqq6PZadRhS8jJ412/os6yhPuV3qbsIvdKOrygUkMh7xvARL+mJzERJonTQuJhSlKh7PqmNpvPxu+P9YSbFQyQ</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -123,7 +123,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABpuwyB49cH6colOQZqtuzJmqtvI1isOiUkkLwPHzkFywAAAAAOgAAAAAIAACAAAABX9IDF/EiPVbBNQydvmRjvsHFsTwnXhQsr97LP0rsKehAAAABRAhcLDKHQtbmaAHnEdpXgQAAAABtl5U6qxX8y30kYaj8aqV+w8lN2lNoFg09cznZhtGcy+j8Z6aBaIciQLCB5jv20mPQVH/AIzf3wK475he6F1Js</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADSLgZ2qiEKk4YkNK2cg3irtkQxpXGBSTstzI+v94t3mwAAAAAOgAAAAAIAACAAAAAdPOO9mBoidpgk1E3lmzinZ4WHRADrVg74wB+TYBJVjhAAAABR6MB8dzzecAmQ6m/ztOlRQAAAABiS3E5qjPx5IE7gnAq7l9Cp4G1po7Oi5ieDRCBVQlGDacolbCBjrRu0eVNAbjXCVi4c/T9BWxquRDhVmDDNxJg</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -211,7 +211,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="VarRunTime">
       <DTS:VariableValue
-        DTS:DataType="7">9/7/2020 2:16:06 PM</DTS:VariableValue>
+        DTS:DataType="7">9/10/2020 8:52:46 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -27087,11 +27087,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="211,42"
           Id="Package\Data_Flow_CrossWalk_Task"
-          TopLeft="601,204" />
+          TopLeft="83,118" />
         <NodeLayout
           Size="259,42"
           Id="Package\Execute SQ_Max_Modified_Date_Task"
-          TopLeft="381,110" />
+          TopLeft="561,113" />
         <NodeLayout
           Size="227,42"
           Id="Package\Execute SQL Delete_Data_Task"
@@ -27099,7 +27099,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="311,42"
           Id="Package\Execute_QL_Bruck_woldeselassie_Log_SQL_Task"
-          TopLeft="13,149" />
+          TopLeft="77,256" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="408,46">
@@ -27136,30 +27136,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 1]"
-          TopLeft="510.5,110">
+          TopLeft="690.5,113">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="11,-43"
+              EndConnector="-169,-46"
               Start="0,0"
-              End="11,-35.5">
+              End="-169,-38.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,-17.5" />
+                    End="0,-19" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,-17.5"
-                    Point2="0,-21.5"
-                    Point3="4,-21.5" />
+                    Point1="0,-19"
+                    Point2="0,-23"
+                    Point3="-4,-23" />
                   <mssgle:LineSegment
-                    End="7,-21.5" />
+                    End="-165,-23" />
                   <mssgle:CubicBezierSegment
-                    Point1="7,-21.5"
-                    Point2="11,-21.5"
-                    Point3="11,-25.5" />
+                    Point1="-165,-23"
+                    Point2="-169,-23"
+                    Point3="-169,-27" />
                   <mssgle:LineSegment
-                    End="11,-35.5" />
+                    End="-169,-38.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27175,7 +27175,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="296,42"
           Id="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task"
@@ -27215,9 +27215,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -27255,7 +27253,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="143,42"
           Id="Package\Data Flow Task\Fuzzy Lookup"
-          TopLeft="426.777777777778,334.111111111111" />
+          TopLeft="415.777777777778,340.111111111111" />
         <NodeLayout
           Size="260,42"
           Id="Package\Data Flow Task\Data Conversion_DT_WSTER_Numeric"
@@ -27366,50 +27364,50 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="186.730158730159,27.68253968254"
+              EndConnector="175.730158730159,33.68253968254"
               Start="0,0"
-              End="179.230158730159,27.68253968254">
+              End="168.230158730159,33.68253968254">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="89.3650793650795,0" />
+                    End="83.8650793650795,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="89.3650793650795,0"
-                    Point2="93.3650793650795,0"
-                    Point3="93.3650793650795,4" />
+                    Point1="83.8650793650795,0"
+                    Point2="87.8650793650795,0"
+                    Point3="87.8650793650795,4" />
                   <mssgle:LineSegment
-                    End="93.3650793650795,23.68253968254" />
+                    End="87.8650793650795,29.68253968254" />
                   <mssgle:CubicBezierSegment
-                    Point1="93.3650793650795,23.68253968254"
-                    Point2="93.3650793650795,27.68253968254"
-                    Point3="97.3650793650795,27.68253968254" />
+                    Point1="87.8650793650795,29.68253968254"
+                    Point2="87.8650793650795,33.68253968254"
+                    Point3="91.8650793650795,33.68253968254" />
                   <mssgle:LineSegment
-                    End="179.230158730159,27.68253968254" />
+                    End="168.230158730159,33.68253968254" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="45.1736926463295,-17.609375,96.3827734375,11.609375"
+              BoundingBox="39.6736926463295,-17.609375,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Fuzzy Lookup Output]"
-          TopLeft="569.777777777778,354.801587301588">
+          TopLeft="558.777777777778,357.801587301587">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="53.2380952380952,0"
+              EndConnector="64.238095238095,0"
               Start="0,0"
-              End="45.7380952380952,0">
+              End="56.738095238095,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="45.7380952380952,0" />
+                    End="56.738095238095,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27692,7 +27690,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\Data_Flow_CrossWalk_Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171,42"
           Id="Package\Data_Flow_CrossWalk_Task\OLE DB Destination"
@@ -27732,9 +27730,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

@@ -2,13 +2,18 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_Bruck_Woldeselassie_SSIS_Packeges</Name>
-    <LastWriteTime>2020-09-07T18:13:20.2943889Z</LastWriteTime>
+    <LastWriteTime>2020-09-11T02:32:30.7636862Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Pkg_Bruck_Woldeselassie_LendingQLB.dtsx</Name>
-      <LastWriteTime>2020-09-07T18:16:04.365216Z</LastWriteTime>
+      <LastWriteTime>2020-09-08T00:57:45.3751586Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pkg_Bruck_Woldeselassiee_QuickenLoan.dtsx</Name>
+      <LastWriteTime>2020-09-11T03:43:00.0321412Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
