@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Bruck_Woldeselassie_QuickenLoan"
   DTS:PackageType="5"
-  DTS:VersionBuild="206"
-  DTS:VersionGUID="{DADDD5A8-8119-499E-A979-8C7E75D87AA8}">
+  DTS:VersionBuild="209"
+  DTS:VersionGUID="{098FBE4E-D375-4135-871D-C4B23AF531B0}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -84,10 +84,10 @@
           ConnectByProxy="False">
           <Password
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADElfXrru76Lk6Ryuz8BhooRIlO1hBsxRkQrMmtj30rsAAAAAAOgAAAAAIAACAAAACBYXz30iY8/eMfr+ZAkc+GQ8x5SL824P7NgFkS+XnqTiAAAADq9hKHVoyNQ7EhbKQwfSxe/FSS3k5kLcMbzbOXRPKOgEAAAACCFn2P52KOGckDmsN6/qGDL88g1zgvyQh3O5fKzkLsR6UKiQ9kbHmizcnh4b04F1YfkK5fxu3ire/M576Yq9dh</Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACfiNRDbCHgjpPE+3Kh+5b9xpCjq7ppuNMGiAHoMl/lqwAAAAAOgAAAAAIAACAAAABI9uVbNVJpiIH9r4ww1b1OyjFiVzXz8rhcZA3TLWJehyAAAADYttMVdPLxgUax+qHcdlZjUvM9M55fPrIllY/SYdIHBkAAAAA6PNXeOeN/1g9IEX4T6OfV5vlpIVjmUDe3X4EjptzwUcYG5I9SHN61VoqmU218vzrHN/MM/wCtTSP2UgwpT0SO</Password>
           <SecurityToken
             Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD36e3mqcVcMCfX51nlnDif3ZCifQvJRRsz6QVG1kowXgAAAAAOgAAAAAIAACAAAABMvQ3Ymhp6UyOYqVojUQM2LEvoeL0XjqVDDwczPs7FFEAAAABmsaMpO03gR8YCPThlQCheTV4i1RELkldDqauflskwiZcoA0TUUTRXFT5fQ8rpQvMxLr9xS9cEePe3fA0sZyzHQAAAAGNN6XC/j1jmsaaOipWHOY1K+pQoyUOw3vE7hUrGYnb7Q6A5yWq+8O+dzSCdHf0ZDHMs6h0AMx2boPE1uQuJlbI</SecurityToken>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADuufILadj9g++Sw6ligST9XPM2Sg6fKYabDH03ESfSaAAAAAAOgAAAAAIAACAAAADvfekj4KmphWDcXyi7kUwiHwcAxupHcJLlGX21ZVDpNkAAAACM5zN4+Hm6Ta+tb0uofOJ0kXMa4tgfSQ4czNcaY08JCVIJ5D+Za8unSt8iNvIAUljzCFNJEEk+2VkrK8Eb1fFQQAAAACMP/bsRfdgVE5pjHcSsOh7CyVD1GxXB9cortzE8evpiGwvDdq14Usr5f31xVv/T4AUeCGBiPg2wT3u2jHkYtss</SecurityToken>
         </SalesforceConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -104,7 +104,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADJx3aGvia62Vwn/V7tljw2sIEUkECCJQElK+fizhXojQAAAAAOgAAAAAIAACAAAACbXOXPkBRNz5QLOY25mZnb09wkRNUv4OW6bCxhO8r8nzAAAAAwFFQNovZz1MBzpOWei5htZkGZsLuo5x/XQy7FJdJaC5oPZoD93mISj78z/RYYNDRAAAAA+/5sTYTW4R89Kju0w9JxqXpJ804h0nsBr9eyrO0YD99dK/rNDY+ukrslK9Gk/nGFtYqp2W8pirT/19SIkvEHLw</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAdtB380WD+idDwDIlr4EZ0uQUnvPY+HZYPL/q0lvlVxwAAAAAOgAAAAAIAACAAAACIp9lVm2xSwejWqfP4rDTT4CsfajJpHrG/+eA4o3D51DAAAAD07RzQUFeLZzK0WEH3lfWoYdzVs5Lw/UjsF6/uUUV/fCrQ4hmI63uarIn6KoWo3vVAAAAAp5s9ZX3BaDbWjGZsehDl9Vrl1DQgAwAUUj2FBK5x/inh13+J/TXlkgnBFio6qzs3zkYOniy0FxUFxyUzjmyrCA</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -118,7 +118,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACMW7dk27u2evorFsAfrx8uTJd9aHnPJajhUgBMxTRiJwAAAAAOgAAAAAIAACAAAADFZnudzmWsk3y0ptkzJ3EX3zEgIGGTdig/Ug0YPZMejhAAAAB2pTUhljhY7WrPGP6SgK25QAAAAJZjR5n+ZcnRkJAus9aD3SsM4+GNsSoQSQ1naIP7BmpqRO8xlLFs68LHGb4MsLcgDG1WFydnFPVwnRUgBlldI2g</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC9s61WdlZOWRY+YOriw8j5tfZIMnjEGnm1u6NjN1OiEAAAAAAOgAAAAAIAACAAAAAcCX0rhFQZCJbGnyaNzG8IZSlOwbJGuzmtPmBUU8Y9dxAAAABJ1BCSBtSRG7zenpUEqTXDQAAAAGe/sp3tJXjJ3aWIEHA+VsaRjCRZdmy8h6ZHotcAjmjlDFal9BuMY8621I8R1H63tUA6Iqc9vwj7ojeNO+xla4o</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -206,7 +206,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="VarRunTime">
       <DTS:VariableValue
-        DTS:DataType="7">9/10/2020 11:43:03 PM</DTS:VariableValue>
+        DTS:DataType="7">9/14/2020 6:33:34 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -414,26 +414,26 @@
           version="1">
           <components>
             <component
-              refId="Package\Data Flow Task\Conditional Split"
+              refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name"
               componentClassID="Microsoft.ConditionalSplit"
               contactInfo="Conditional Split;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Routes data rows to different outputs depending on the content of the data. Use conditions (SSIS expressions) to specify which rows are routed. For example, separate records that need to be cleaned from those that are ready to be loaded or route only a subset of records."
-              name="Conditional Split"
+              name="Conditional Split_Borr_First_Name&amp;Borr_last_Name"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+                  refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input]"
                   description="Input to the Conditional Split Transformation"
                   name="Conditional Split Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input].Columns[BorrFirstName__c]"
+                      refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input].Columns[BorrFirstName__c]"
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="BorrFirstName__c"
                       lineageId="Package\Data Flow Task\Salesforce Source.Outputs[Salesforce Source Output].Columns[BorrFirstName__c]" />
                     <inputColumn
-                      refId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input].Columns[BorrLastName__c]"
+                      refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input].Columns[BorrLastName__c]"
                       cachedDataType="wstr"
                       cachedLength="100"
                       cachedName="BorrLastName__c"
@@ -444,13 +444,13 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Conditional Split.Outputs[case1]"
+                  refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[case1]"
                   description="Output 1 of the Conditional Split Transformation"
                   errorOrTruncationOperation="Computation"
                   errorRowDisposition="FailComponent"
                   exclusionGroup="1"
                   name="case1"
-                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+                  synchronousInputId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input]"
                   truncationRowDisposition="FailComponent">
                   <properties>
                     <property
@@ -472,11 +472,11 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Default Output]"
+                  refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Default Output]"
                   description="Default Output of the Conditional Split Transformation"
                   exclusionGroup="1"
                   name="Conditional Split Default Output"
-                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]">
+                  synchronousInputId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input]">
                   <properties>
                     <property
                       dataType="System.Boolean"
@@ -485,23 +485,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output]"
+                  refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Error Output]"
                   description="Error Output of the Conditional Split Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Conditional Split Error Output"
-                  synchronousInputId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]">
+                  synchronousInputId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Conditional Split.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[Conditional Split Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -510,20 +510,20 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Derived Column"
+              refId="Package\Data Flow Task\Derived Column_Mortgage_insurance"
               componentClassID="Microsoft.DerivedColumn"
               contactInfo="Derived Column;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;0"
               description="Creates new column values by applying expressions to transformation input columns. Create new columns or overwrite existing ones. For example, concatenate the values from the 'first name' and 'last name' column to make a 'full name' column."
-              name="Derived Column"
+              name="Derived Column_Mortgage_insurance"
               usesDispositions="true">
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+                  refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Inputs[Derived Column Input]"
                   description="Input to the Derived Column Transformation"
                   name="Derived Column Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input].Columns[insurance_company]"
+                      refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Inputs[Derived Column Input].Columns[insurance_company]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="128"
@@ -535,20 +535,20 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]"
+                  refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Output]"
                   description="Default Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   name="Derived Column Output"
-                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]"
+                      refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
                       length="128"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]"
+                      lineageId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]"
                       name="Mortgage_Insurance_Company"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -569,23 +569,23 @@
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output]"
+                  refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Error Output]"
                   description="Error Output of the Derived Column Transformation"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Derived Column Error Output"
-                  synchronousInputId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]">
+                  synchronousInputId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Inputs[Derived Column Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1729,7 +1729,7 @@
                       dataType="str"
                       errorOrTruncationOperation="Computation"
                       errorRowDisposition="FailComponent"
-                      length="159"
+                      length="200"
                       lineageId="Package\Data Flow Task\Derived_Column.Outputs[Derived Column Output].Columns[House_On_Sale_Street]"
                       name="House_On_Sale_Street"
                       truncationRowDisposition="FailComponent">
@@ -1738,13 +1738,13 @@
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Expression"
-                          name="Expression">(DT_STR,159,1252)#{Package\Data Flow Task\Salesforce Source.Outputs[Salesforce Source Output].Columns[HouseOnSaleState__c]}</property>
+                          name="Expression">(DT_STR,200,1252)#{Package\Data Flow Task\Salesforce Source.Outputs[Salesforce Source Output].Columns[HouseOnSaleState__c]}</property>
                         <property
                           containsID="true"
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_STR,159,1252)HouseOnSaleState__c</property>
+                          name="FriendlyExpression">(DT_STR,200,1252)HouseOnSaleState__c</property>
                       </properties>
                     </outputColumn>
                     <outputColumn
@@ -6989,7 +6989,7 @@
                       refId="Package\Data Flow Task\Fuzzy Lookup.Inputs[Fuzzy Lookup Input].Columns[House_On_Sale_Street]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="159"
+                      cachedLength="200"
                       cachedName="House_On_Sale_Street"
                       lineageId="Package\Data Flow Task\Derived_Column.Outputs[Derived Column Output].Columns[House_On_Sale_Street]">
                       <properties>
@@ -8039,7 +8039,7 @@
                       cachedDataType="str"
                       cachedLength="1"
                       cachedName="MarketSourceCode"
-                      lineageId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceCode]">
+                      lineageId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output].Columns[MarketSourceCode]">
                       <properties>
                         <property
                           dataType="System.Null"
@@ -11294,7 +11294,7 @@
                       refId="Package\Data Flow Task\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[House_On_Sale_Street]"
                       codePage="1252"
                       dataType="str"
-                      length="159"
+                      length="200"
                       lineageId="Package\Data Flow Task\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[House_On_Sale_Street]"
                       name="House_On_Sale_Street">
                       <properties>
@@ -12076,7 +12076,7 @@
                           containsID="true"
                           dataType="System.Int32"
                           description="Specifies the lineage identifier of the input column from which to copy to this output column for each match."
-                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceCode]}</property>
+                          name="SourceInputColumnLineageID">#{Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output].Columns[MarketSourceCode]}</property>
                         <property
                           dataType="System.Int32"
                           description="Specifies whether the column is used to indicate confidence or similarity."
@@ -12165,11 +12165,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Data Flow Task\Lookup 1"
+              refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code"
               componentClassID="Microsoft.Lookup"
               contactInfo="Lookup;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;6"
               description="Joins additional columns to the data flow by looking up values in a table. For example, join to the 'employee id' column the employees table to get 'hire date' and 'employee name'. We recommend this transformation when the lookup table can fit into memory."
-              name="Lookup 1"
+              name="Lookup_Market_Source_&amp;_Market-Souce_Code"
               usesDispositions="true"
               version="6">
               <properties>
@@ -12233,7 +12233,7 @@ where [refTable].[MarketSourceCode] = ?</property>
               </properties>
               <connections>
                 <connection
-                  refId="Package\Data Flow Task\Lookup 1.Connections[OleDbConnection]"
+                  refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Connections[OleDbConnection]"
                   connectionManagerID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}:external"
                   connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL]"
                   description="Connection manager used to access lookup data."
@@ -12241,11 +12241,11 @@ where [refTable].[MarketSourceCode] = ?</property>
               </connections>
               <inputs>
                 <input
-                  refId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input]"
+                  refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input]"
                   name="Lookup Input">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input].Columns[Market_Source]"
+                      refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input].Columns[Market_Source]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="7"
@@ -12268,19 +12268,19 @@ where [refTable].[MarketSourceCode] = ?</property>
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output]"
+                  refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output]"
                   errorOrTruncationOperation="Lookup"
                   exclusionGroup="1"
                   name="Lookup Match Output"
-                  synchronousInputId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceCode]"
+                      refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output].Columns[MarketSourceCode]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Copy Column"
                       length="1"
-                      lineageId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output].Columns[MarketSourceCode]"
+                      lineageId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output].Columns[MarketSourceCode]"
                       name="MarketSourceCode"
                       truncationRowDisposition="FailComponent">
                       <properties>
@@ -12294,30 +12294,30 @@ where [refTable].[MarketSourceCode] = ?</property>
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup No Match Output]"
+                  refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup No Match Output]"
                   description="The Lookup output that handles rows with no matching entries in the reference dataset. Use this output when the NoMatchBehavior property is set to &quot;Send rows with no matching entries to the no match output.&quot;"
                   exclusionGroup="1"
                   name="Lookup No Match Output"
-                  synchronousInputId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input]">
                   <externalMetadataColumns />
                 </output>
                 <output
-                  refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Error Output]"
+                  refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Error Output]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Lookup Error Output"
-                  synchronousInputId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input]">
+                  synchronousInputId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorCode]"
+                      lineageId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Error Output].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Error Output].Columns[ErrorColumn]"
+                      lineageId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Error Output].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -12687,7 +12687,7 @@ where [refTable].[MarketSourceCode] = ?</property>
                       cachedLength="128"
                       cachedName="Mortgage_Insurance_Company"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[MortgageInsuranceCompany]"
-                      lineageId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]" />
+                      lineageId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Output].Columns[Mortgage_Insurance_Company]" />
                     <inputColumn
                       refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[ProcessingDate__c]"
                       cachedDataType="dbTimeStamp"
@@ -12902,7 +12902,7 @@ where [refTable].[MarketSourceCode] = ?</property>
                       refId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].Columns[House_On_Sale_Street]"
                       cachedCodepage="1252"
                       cachedDataType="str"
-                      cachedLength="159"
+                      cachedLength="200"
                       cachedName="House_On_Sale_Street"
                       externalMetadataColumnId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input].ExternalColumns[HouseOnSaleState]"
                       lineageId="Package\Data Flow Task\Fuzzy Lookup.Outputs[Fuzzy Lookup Output].Columns[House_On_Sale_Street]" />
@@ -15224,29 +15224,29 @@ where [refTable].[MarketSourceCode] = ?</property>
           <paths>
             <path
               refId="Package\Data Flow Task.Paths[case1]"
-              endId="Package\Data Flow Task\Lookup 1.Inputs[Lookup Input]"
+              endId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Inputs[Lookup Input]"
               name="case1"
-              startId="Package\Data Flow Task\Conditional Split.Outputs[case1]" />
+              startId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Outputs[case1]" />
             <path
               refId="Package\Data Flow Task.Paths[Derived Column Output]"
-              endId="Package\Data Flow Task\Conditional Split.Inputs[Conditional Split Input]"
+              endId="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name.Inputs[Conditional Split Input]"
               name="Derived Column Output"
               startId="Package\Data Flow Task\Derived_Column.Outputs[Derived Column Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Derived Column Output1]"
               endId="Package\Data Flow Task\OLE DB Destination 1.Inputs[OLE DB Destination Input]"
               name="Derived Column Output"
-              startId="Package\Data Flow Task\Derived Column.Outputs[Derived Column Output]" />
+              startId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Outputs[Derived Column Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Fuzzy Lookup Output]"
-              endId="Package\Data Flow Task\Derived Column.Inputs[Derived Column Input]"
+              endId="Package\Data Flow Task\Derived Column_Mortgage_insurance.Inputs[Derived Column Input]"
               name="Fuzzy Lookup Output"
               startId="Package\Data Flow Task\Fuzzy Lookup.Outputs[Fuzzy Lookup Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Lookup Match Output]"
               endId="Package\Data Flow Task\Fuzzy Lookup.Inputs[Fuzzy Lookup Input]"
               name="Lookup Match Output"
-              startId="Package\Data Flow Task\Lookup 1.Outputs[Lookup Match Output]" />
+              startId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Outputs[Lookup Match Output]" />
             <path
               refId="Package\Data Flow Task.Paths[Salesforce Source Output]"
               endId="Package\Data Flow Task\Derived_Column.Inputs[Derived Column Input]"
@@ -15800,35 +15800,14 @@ where [refTable].[MarketSourceCode] = ?</property>
               ReadOnlyVariables="System::PackageName,System::StartTime,User::varBody,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription">
               <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_85b96c8d55f645bb8294c856bde312ed")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_85b96c8d55f645bb8294c856bde312ed")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
+                Name="Properties\Settings.settings"
+                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
+<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
+  <Profiles>
+    <Profile Name="(Default)" />
+  </Profiles>
+  <Settings />
+</SettingsFile>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.resx"
                 Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
@@ -16230,14 +16209,35 @@ namespace ST_85b96c8d55f645bb8294c856bde312ed.Properties {
     }
 }]]></ProjectItem>
               <ProjectItem
-                Name="Properties\Settings.settings"
-                Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
-<SettingsFile xmlns="uri:settings" CurrentProfile="(Default)">
-  <Profiles>
-    <Profile Name="(Default)" />
-  </Profiles>
-  <Settings />
-</SettingsFile>]]></ProjectItem>
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_85b96c8d55f645bb8294c856bde312ed")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_85b96c8d55f645bb8294c856bde312ed")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Resources.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -16571,7 +16571,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package">
     <LayoutInfo>
       <GraphLayout
-        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task"
@@ -16597,7 +16597,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="676.5,257">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-8,46"
               Start="0,0"
               End="-8,38.5">
@@ -16631,7 +16631,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="690.5,155">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="22.5,60"
               Start="0,0"
               End="22.5,52.5">
@@ -16667,7 +16667,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="296,42"
           Id="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task"
@@ -16681,7 +16681,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="632,109">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="-219,-39"
               Start="0,0"
               End="-211.5,-39">
@@ -16707,7 +16707,9 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16741,25 +16743,41 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\Data Flow Task">
     <LayoutInfo>
       <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="155,42"
-          Id="Package\Data Flow Task\Conditional Split"
-          TopLeft="28.0000000000001,202.111111111111" />
-        <NodeLayout
-          Size="156,42"
-          Id="Package\Data Flow Task\Derived_Column"
-          TopLeft="26.2222222222219,98.666666666667" />
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="162,42"
           Id="Package\Data Flow Task\Salesforce Source"
-          TopLeft="21,17" />
+          TopLeft="25,17" />
+        <NodeLayout
+          Size="255,42"
+          Id="Package\Data Flow Task\Derived Column_Mortgage_insurance"
+          TopLeft="482,315" />
+        <NodeLayout
+          Size="180,42"
+          Id="Package\Data Flow Task\OLE DB Destination 1"
+          TopLeft="762,322" />
+        <NodeLayout
+          Size="156,42"
+          Id="Package\Data Flow Task\Derived_Column"
+          TopLeft="30.2222222222219,98.666666666667" />
+        <NodeLayout
+          Size="302,42"
+          Id="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code"
+          TopLeft="48,315" />
+        <NodeLayout
+          Size="322,42"
+          Id="Package\Data Flow Task\Conditional Split_Borr_First_Name&amp;Borr_last_Name"
+          TopLeft="43.0000000000001,195.111111111111" />
+        <NodeLayout
+          Size="143,42"
+          Id="Package\Data Flow Task\Fuzzy Lookup"
+          TopLeft="345,398" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Salesforce Source Output]"
-          TopLeft="103.111111111111,59">
+          TopLeft="107.111111111111,59">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="0,39.666666666667"
               Start="0,0"
               End="0,32.166666666667">
@@ -16777,101 +16795,67 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Data Flow Task.Paths[Derived Column Output]"
-          TopLeft="104.861111111111,140.666666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,61.444444444444"
-              Start="0,0"
-              End="0,53.944444444444">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,53.944444444444" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="122,42"
-          Id="Package\Data Flow Task\Lookup 1"
-          TopLeft="44,315" />
-        <EdgeLayout
-          Id="Package\Data Flow Task.Paths[case1]"
-          TopLeft="105.25,244.111111111111">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,70.888888888889"
-              Start="0,0"
-              End="0,63.388888888889">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,63.388888888889" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-12.97017578125,26.9712999131945,25.9403515625,9.4462890625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="143,42"
-          Id="Package\Data Flow Task\Fuzzy Lookup"
-          TopLeft="232,320" />
-        <EdgeLayout
           Id="Package\Data Flow Task.Paths[Lookup Match Output]"
-          TopLeft="166,338.5">
+          TopLeft="199,357">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="66,0"
+              StartConnector="{x:Null}"
+              EndConnector="195,41"
               Start="0,0"
-              End="58.5,0">
+              End="195,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="58.5,0" />
+                    End="0,20.3278008298755" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.3278008298755"
+                    Point2="0,24.3278008298755"
+                    Point3="4,24.3278008298755" />
+                  <mssgle:LineSegment
+                    End="191,24.3278008298755" />
+                  <mssgle:CubicBezierSegment
+                    Point1="191,24.3278008298755"
+                    Point2="195,24.3278008298755"
+                    Point3="195,28.3278008298755" />
+                  <mssgle:LineSegment
+                    End="195,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="-18.94138671875,5,96.3827734375,11.609375"
+              BoundingBox="49.30861328125,29.3278008298755,96.3827734375,11.609375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="154,42"
-          Id="Package\Data Flow Task\Derived Column"
-          TopLeft="439,322" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Fuzzy Lookup Output]"
-          TopLeft="375,342">
+          TopLeft="439,398">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="64,0"
+              StartConnector="{x:Null}"
+              EndConnector="170.5,-41"
               Start="0,0"
-              End="56.5,0">
+              End="170.5,-33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="56.5,0" />
+                    End="0,-12.6721991701245" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,-12.6721991701245"
+                    Point2="0,-16.6721991701245"
+                    Point3="4,-16.6721991701245" />
+                  <mssgle:LineSegment
+                    End="166.5,-16.6721991701245" />
+                  <mssgle:CubicBezierSegment
+                    Point1="166.5,-16.6721991701245"
+                    Point2="170.5,-16.6721991701245"
+                    Point3="170.5,-20.6721991701245" />
+                  <mssgle:LineSegment
+                    End="170.5,-33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -16880,30 +16864,96 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="180,42"
-          Id="Package\Data Flow Task\OLE DB Destination 1"
-          TopLeft="660,320" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Derived Column Output1]"
-          TopLeft="593,342">
+          TopLeft="737,339.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="67,0"
+              StartConnector="{x:Null}"
+              EndConnector="25,0"
               Start="0,0"
-              End="59.5,0">
+              End="17.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="59.5,0" />
+                    End="17.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[Derived Column Output]"
+          TopLeft="108.222222222222,140.666666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="95.7777777777782,54.444444444444"
+              Start="0,0"
+              End="95.7777777777782,46.944444444444">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,23.222222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,23.222222222222"
+                    Point2="0,27.222222222222"
+                    Point3="4,27.222222222222" />
+                  <mssgle:LineSegment
+                    End="91.7777777777782,27.222222222222" />
+                  <mssgle:CubicBezierSegment
+                    Point1="91.7777777777782,27.222222222222"
+                    Point2="95.7777777777782,27.222222222222"
+                    Point3="95.7777777777782,31.222222222222" />
+                  <mssgle:LineSegment
+                    End="95.7777777777782,46.944444444444" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Data Flow Task.Paths[case1]"
+          TopLeft="204,237.111111111111">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{x:Null}"
+              EndConnector="-54.0000000000001,77.888888888889"
+              Start="0,0"
+              End="-54.0000000000001,70.388888888889">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.4870443566096" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42.4870443566096"
+                    Point2="0,46.4870443566096"
+                    Point3="-4,46.4870443566096" />
+                  <mssgle:LineSegment
+                    End="-50.0000000000001,46.4870443566096" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-50.0000000000001,46.4870443566096"
+                    Point2="-54.0000000000001,46.4870443566096"
+                    Point3="-54.0000000000001,50.4870443566096" />
+                  <mssgle:LineSegment
+                    End="-54.0000000000001,70.388888888889" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-39.9701757812501,51.4870443566096,25.9403515625,9.4462890625"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16913,7 +16963,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package\Data Flow Task.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="151,42"
           Id="Package\Data Flow Task.EventHandlers[OnError]\Data Flow Task"
@@ -16927,7 +16977,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="303.5,116">
           <EdgeLayout.Curve>
             <mssgle:Curve
-              StartConnector="{assembly:Null}"
+              StartConnector="{x:Null}"
               EndConnector="10,41"
               Start="0,0"
               End="10,33.5">
@@ -16961,6 +17011,55 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
       </GraphLayout>
     </LayoutInfo>
   </DtsEventHandler>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\OLE DB Destination 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code">
+    <Properties>
+      <Property>
+        <Name>OverwriteParamsSQLProp</Name>
+        <Value
+          type="q2:string">false</Value>
+      </Property>
+      <Property>
+        <Name>UsedTableName</Name>
+        <Value
+          type="q3:string">[dbo].[MarketLookupTable]</Value>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q4:string">0</Value>
+      </Property>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Data Flow Task\Fuzzy Lookup">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <TaskHost
     design-time-name="Package\Data_Flow_CrossWalk_Task">
     <LayoutInfo>
@@ -17015,55 +17114,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
   </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Data_Flow_CrossWalk_Task\OLE DB Destination">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Lookup 1">
-    <Properties>
-      <Property>
-        <Name>OverwriteParamsSQLProp</Name>
-        <Value
-          type="q2:boolean">false</Value>
-      </Property>
-      <Property>
-        <Name>UsedTableName</Name>
-        <Value
-          type="q3:string">[dbo].[MarketLookupTable]</Value>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q4:int">0</Value>
-      </Property>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\Fuzzy Lookup">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data Flow Task\OLE DB Destination 1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
