@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:ObjectName="DESKTOP-QURU3TA.STGQL"
-  DTS:DTSID="{9972136B-2AC3-4372-833F-BFF11A4822F2}"
+  DTS:DelayValidation="True"
+  DTS:ObjectName="DESKTOP-QURU3TA.STGQL 1"
+  DTS:DTSID="{0526AD98-9CA6-47E9-B75B-57C07B168D88}"
   DTS:CreationName="OLEDB">
   <DTS:PropertyExpression
     DTS:Name="ConnectionString">@[$Project::DESKTOPQURU3TASTGQL_ConnectionString2]</DTS:PropertyExpression>

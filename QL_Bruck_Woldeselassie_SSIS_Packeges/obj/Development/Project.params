@@ -1,134 +1,6 @@
 <?xml version="1.0"?>
 <SSIS:Parameters xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
   <SSIS:Parameter
-    SSIS:Name="ODataSource_ConnectionString">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{840d5d56-9754-434c-8fa2-231b7dcec3ad}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value">Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;Cookie="SPOIDCRL=77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48U1A+VjgsMGguZnxtZW1iZXJzaGlwfDEwMDMyMDAwNDUzOWU4OWZAbGl2ZS5jb20sMCMuZnxtZW1iZXJzaGlwfHNoYXJlcG9pbnRAZHVuYXRrLmNvbSwxMzI0MzExODU3MTAwMDAwMDAsMTMyNDIxNzU3MDQwMDAwMDAwLDEzMjQzMjA0OTcxMTczNTE1MSwwLjAuMC4wLDQsODVkZGY3ZTktODA2OC00YmI2LTg5NzktNDQ3NjE0NDJlMzlhLCwsNzM4ZDc0OWYtNzBlNi0wMDAwLTQ3MTItYzVlMmE4ZjgwMTIwLDczOGQ3NDlmLTcwZTYtMDAwMC00NzEyLWM1ZTJhOGY4MDEyMCwsMCwwLDAsLCwsMjY1MDQ2Nzc0Mzk5OTk5OTk5OSwwLCx0RkRMUkpSSTBCaCsrSVY2VFZtSVY2SllDcG80Tm5ueW9rekorczUyeGlTQ3FkQStYWW5VQUViWnhOMFQ4NW15ZVBZNzFkMmlqQS93NlNBLzNLa2V1dDQrWEdYR0tvRitobk9yd0RRQUpWMmd4U2JiUTZEaVdRVDAwWmhHeERlYUhyeVBqUGJBV0o0dUx0eE8xRUVkUFJCdXhCaUkybjk5VHIyQ1plM2txb2tPTjdDODVtcGNYRXU4dks3ZjNqRnBpY2xvbmwrYlhFcytSM1NpNTE5SnFkSGpDa2hZa2tiNmg0WWJXRGEvMDBTNVdsQmNtRkd5RGw3cnEvbHRSUXZpSy9STEJLeEkrVkxaaVRpdmFWbE80UTMybTRlYkE5Tktycmw0Zk1KVFkzdFdmV042V0FYQ1ZZdEJKZWxWS3NpSUJWZFl1d1V6NG13OHluWTg4cnN0Wmc9PTwvU1A+";User ID=sharepoint@dunatk.com;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
-    SSIS:Name="ParODataSource_Password">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{888a28c8-faa3-4efd-8ba1-776afe262c29}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
-    SSIS:Name="ODataSource_Password">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{62c9319c-797b-486d-8324-12d22a875210}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">1</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAACAAAAAAAQZgAAAAEAACAAAAD4ZWXOUbs4YIoscausepVDcePqZufg2duRNN1JQe0fBwAAAAAOgAAAAAIAACAAAAC9NZCLJWNgySIscEZ7jS/LUn0RTXPIA3GmlkQE3RgPZpAAAAC9DpoNPZDsQoHORmO2Sib0g9LB7eXH56ogE3oJr66AR+qM/9YhiQ9a2/k9NudzSKpcH8JKp4qPXlxoo5CUkD5SDyphase8hU0mLIZDlLdFZiLVYUzOyXKtBvEHW5ZBsH45paOVhgYskj1S+oes3AAlft4rxBUrvKpntS5o8lY/sfUjaJjfBmp7BRh59ngQ4wdAAAAA2nCpaVHb4Bnwe2XuDVvJdroQqkwSu3pAfmzXpYqkfDLtW1Fasoc9pJm68bPeBsDc5c6FksTz836Ydtd2JSua2Q==</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
-    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter_ConnectionString">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{f1a8a0a3-cf59-4c6e-b7bc-6a09b0835925}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value">Data Source=Duna.database.windows.net;User ID=UberWriter;Initial Catalog=UberWriter;Application Name=SSIS-Pkg_Bruck_Woldeselassie_UberWriter-{BAE3FE06-40BE-4FB5-B3A3-D08B70CC0FED}Duna.database.windows.net.UberWriter.UberWriter;</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
-    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter_Password">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{6743e202-6bcb-4081-85c4-154503271e68}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">1</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value"
-        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAACAAAAAAAQZgAAAAEAACAAAAAakiGCwIOCUTwQQHElBt3cUs2Xv9Dr/xM/gSefjLVY/QAAAAAOgAAAAAIAACAAAADHL8VS/W285qZXQaPRPmBPw76IiD2fVfDZc7OnfdFcE4AAAAByLKohmOel8DaiCS9kUWu/zvn6YniEThIIXG+5NBdvhQkqB7FMpwkZDicLEOZOlBP+eRx7LLwi2upLgyE+XS+KIgWt2C/xrD4L1qjP/a+SnloIJxVOOl2KQ2fyAjVffA6N60ovnrMFqhbI6Eo9y6piU6GABlVaWn91CW6FrZJNe0AAAABGriAsHZ/wSBbaNWBHZXTH7H83oQ6elMlmBxvMOJZ2V//0U2ycYF1BMNg5rf8/CMCUkQUNqXBZOQBYJxjcWVUb</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
-    SSIS:Name="DESKTOPQURU3TASTGQL_ConnectionString">
-    <SSIS:Properties>
-      <SSIS:Property
-        SSIS:Name="ID">{02e28967-b239-4803-8462-f86156fcaea8}</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="CreationName"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Description"></SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Required">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Sensitive">0</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="Value">Data Source=DESKTOP-QURU3TA;Initial Catalog=STGQL;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;</SSIS:Property>
-      <SSIS:Property
-        SSIS:Name="DataType">18</SSIS:Property>
-    </SSIS:Properties>
-  </SSIS:Parameter>
-  <SSIS:Parameter
     SSIS:Name="DESKTOPQURU3TAQLSSISLOG_ConnectionString">
     <SSIS:Properties>
       <SSIS:Property
@@ -150,10 +22,31 @@
     </SSIS:Properties>
   </SSIS:Parameter>
   <SSIS:Parameter
-    SSIS:Name="DESKTOPQURU3TASTGQL_ConnectionString1">
+    SSIS:Name="SalesforceConnectionManager_ConnectionString">
     <SSIS:Properties>
       <SSIS:Property
-        SSIS:Name="ID">{0370bea4-2aaa-444a-937e-fb0e06f3039a}</SSIS:Property>
+        SSIS:Name="ID">{6315fb26-d851-4e70-83d3-6ed004051e5a}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;RedirectUri=;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="DESKTOPQURU3TASTGQL_ConnectionString2">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{8300d92d-f67b-4df9-a480-dd44a70df6ed}</SSIS:Property>
       <SSIS:Property
         SSIS:Name="CreationName"></SSIS:Property>
       <SSIS:Property
@@ -171,10 +64,10 @@
     </SSIS:Properties>
   </SSIS:Parameter>
   <SSIS:Parameter
-    SSIS:Name="MorgageInsuranceCompany_ConnectionString">
+    SSIS:Name="ODataSource_ConnectionString">
     <SSIS:Properties>
       <SSIS:Property
-        SSIS:Name="ID">{441b326f-debc-430e-a984-f81bcd4a7276}</SSIS:Property>
+        SSIS:Name="ID">{4b34dc7f-4b92-4091-93bd-6f135cd64559}</SSIS:Property>
       <SSIS:Property
         SSIS:Name="CreationName"></SSIS:Property>
       <SSIS:Property
@@ -186,7 +79,71 @@
       <SSIS:Property
         SSIS:Name="Sensitive">0</SSIS:Property>
       <SSIS:Property
-        SSIS:Name="Value">C:\Users\bruck\Downloads\MortgageInsuranceCompany Cross Walk.txt</SSIS:Property>
+        SSIS:Name="Value">Service Document Url=https://dunatkcom.sharepoint.com/sites/LendingQB/_vti_bin/listdata.svc;Include Atom Elements=Auto;Include Expanded Entities=False;Integrated Security=False;User ID=sharepoint@dunatk.com;password=Covid19@prj*bi2020;Persist Security Info=False;Time Out=600;Schema Sample Size=25;Retry Count=5;Retry Sleep=100;Keep Alive=False;Max Received Message Size=4398046511104</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="DunaDatabaseWindowsNetUberWriterUberWriter1_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{4d6efef9-dc12-48a4-a5b1-2935b8094da7}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">Data Source=Duna.database.windows.net;User ID=UberWriter;password=Uber^5512;Initial Catalog=UberWriter;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="FTPConnectionManager_ConnectionString">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{9d8abcde-77f6-4ffc-a2de-dc3df4e3211a}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value">ftp.drivehq.com:21</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="DataType">18</SSIS:Property>
+    </SSIS:Properties>
+  </SSIS:Parameter>
+  <SSIS:Parameter
+    SSIS:Name="FTPConnectionManager_ServerPassword">
+    <SSIS:Properties>
+      <SSIS:Property
+        SSIS:Name="ID">{e6ce556c-da4a-49b9-9f1c-823fc8d911ed}</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="CreationName"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Description"></SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Required">0</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Sensitive">1</SSIS:Property>
+      <SSIS:Property
+        SSIS:Name="Value"
+        SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAACAAAAAAAQZgAAAAEAACAAAACu0GSzUwtW0TaTnPPJY+gWoGE5BEMGRKvxdsSLD2aEigAAAAAOgAAAAAIAACAAAABXBreZH1bvu2wR3GmvmMObviHH5KcBnOmJv7HerfbhpZAAAAD5fMMii2hWCFxZyxZ9y5qfXB2j0h3XhT9mrudXh/F4/9EhG8zeBoqnw7WhFNBcOJJMitaBfgOj76tTHhBhfDhjXyNJItTeK1KlY3gaYp+b0mvDO7kFnbV4n/n4xp7FhC+1061nHkYnXhu0ibDBIz2bKzhWBUrIGTy0LH6uxTtZDzX5OVAFSuJHr6E9kTgh9wVAAAAA1GSepZ3wZXANkDz5H0uxZYy/7li/hL0DSxlMupHNVHP9J3Y2KMaSTlcSsrz0mmiag3bvd9pjIJqSNwXIpezQBA==</SSIS:Property>
       <SSIS:Property
         SSIS:Name="DataType">18</SSIS:Property>
     </SSIS:Properties>

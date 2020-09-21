@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:DelayValidation="True"
   DTS:ObjectName="DESKTOP-QURU3TA.QLSSISLOG"
   DTS:DTSID="{B1DC5810-F3BB-461D-AFA8-6CA98D7A1A23}"
   DTS:CreationName="OLEDB">

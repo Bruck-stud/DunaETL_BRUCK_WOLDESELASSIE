@@ -5,93 +5,16 @@
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DESKTOP-QURU3TA"
   DTS:CreatorName="DESKTOP-QURU3TA\bruck"
-  DTS:DTSID="{C5CDEDC0-57DC-4F0B-8EF5-8C8336CD6B2D}"
+  DTS:DTSID="{0FDACA24-BF7F-44F7-9148-300A1C7C3C2D}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="15.0.2000.128"
   DTS:LocaleID="1033"
   DTS:ObjectName="Pkg_Bruck_Woldeselassie_QuickenLoan"
   DTS:PackageType="5"
-  DTS:VersionBuild="210"
-  DTS:VersionGUID="{26874408-CA50-48D7-A00C-5F84E9169562}">
+  DTS:VersionBuild="235"
+  DTS:VersionGUID="{0AF29F5A-9DB0-4070-B8FB-23D7E295CFEF}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
-  <DTS:ConnectionManagers>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[DESKTOP-QURU3TA.QLSSISLOG]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{F7DEF598-FA83-4973-A2C7-2C7955256B4A}"
-      DTS:ObjectName="DESKTOP-QURU3TA.QLSSISLOG">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectionString="Data Source=DESKTOP-QURU3TA;Initial Catalog=QLSSISLOG;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;" />
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[MorgageInsuranceCompany]"
-      DTS:CreationName="FLATFILE"
-      DTS:DTSID="{7B5C56E3-601E-4967-9005-6F9E9925D4DB}"
-      DTS:ObjectName="MorgageInsuranceCompany">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:Format="Delimited"
-          DTS:LocaleID="1033"
-          DTS:HeaderRowDelimiter="_x000D__x000A_"
-          DTS:ColumnNamesInFirstDataRow="True"
-          DTS:RowDelimiter=""
-          DTS:TextQualifier="_x003C_none_x003E_"
-          DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\bruck\Downloads\MortgageInsuranceCompany Cross Walk.txt">
-          <DTS:FlatFileColumns>
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x0009_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MortgageInsuranceCompanyID"
-              DTS:DTSID="{DEAEFBEB-FA47-401B-A27E-A9B5589E8851}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x0009_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="MortgageInsuranceCompany"
-              DTS:DTSID="{A1547E1C-8795-4ACF-9B51-FC8BADD151AC}"
-              DTS:CreationName="" />
-            <DTS:FlatFileColumn
-              DTS:ColumnType="Delimited"
-              DTS:ColumnDelimiter="_x000D__x000A_"
-              DTS:MaximumWidth="50"
-              DTS:DataType="129"
-              DTS:TextQualified="True"
-              DTS:ObjectName="Insurance_Company"
-              DTS:DTSID="{42DA8444-80AA-4BE5-887A-C901885A9591}"
-              DTS:CreationName="" />
-          </DTS:FlatFileColumns>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[Salesforce Connection Manager]"
-      DTS:CreationName="Salesforce (KingswaySoft)"
-      DTS:DTSID="{2BDFF076-1830-4265-A243-B276F614AD8E}"
-      DTS:ObjectName="Salesforce Connection Manager">
-      <DTS:ObjectData>
-        <SalesforceConnectionManager
-          ConnectionString="InstanceType=Sandbox;AuthenticationType=AuthorizationCode;ServiceEndpoint=SOAP;ServiceUrl=https://test.salesforce.com/services/Soap/u/48.0;TokenPath=;ClientId=;RedirectUri=;CertificateThumbprint=;UserName=salesforce@dunallc.com.sandboxdev;ServiceTimeout=120;ProxyMode=NoProxy;ProxyServer=;ProxyServerPort=0;ProxyUsername=;RetryOnIntermittentErrors=True"
-          ConnectByProxy="False">
-          <Password
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADaRwZjYpZon4Rx2AvAk1bhGVLD4rjhlYwRJyqKMDviigAAAAAOgAAAAAIAACAAAAAZBnYKNkHthM+0uW4c3BUzJdt1yNfnx1oqQGuQ8TbgGSAAAACwXKh5hTdnZrVTYgAuYxNUrXNfYgXl/FIkBcdGqpacKkAAAACrIVDVHZ88+eFiM8lXgKSstfzM4F/fSxTvcLmpAKgKswXx9/hguX2HZSVRtuc1jvo081zmxqyG8GD0XoG/VL9W</Password>
-          <SecurityToken
-            Sensitive="1" xmlns="www.microsoft.com/SqlServer/Dts"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADvAdMnYnkXeXIqq5nuIUM2+NxpBJUY/EIUNOdSezp+NwAAAAAOgAAAAAIAACAAAADwWK9dbZ20QZVpaXjJedWZ591a1gke1OO8zN/mMdG4BkAAAACLarsF3XBOFRyZZcbitfXacm0GRZGDHckU2B1XV+MkpDbDuP4EyY132E9AyHmkuh6LOJAYOzOrj4U0yVuOFp3uQAAAAN40IxtUfWQhwlyafc2jt4dwdZS/rouKRdDkdGoD815NLhpHRXTrfnnR0jwQ+VyvMIErv7kzNwbx/WBaEJFnpkY</SecurityToken>
-        </SalesforceConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-  </DTS:ConnectionManagers>
   <DTS:PackageParameters>
     <DTS:PackageParameter
       DTS:CreationName=""
@@ -104,7 +27,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABWMuJr2oMJVRRpw4o8/2ro33oYr6BkdX71v9xQI4HfFgAAAAAOgAAAAAIAACAAAAC7KjO674BHiwBmSdgMYH0KTbOLtAjCmWsUHSDnOSJVjzAAAAAPu82n7Plo+SsmuI14vJxAJvy6ovn1eOMLjB2PjoZVd9O6lcy0n1JB/wlXT4WwYwRAAAAASs5iSJwV6D+2dIhdjDz15p8HMpD1r0XxWNADCZRRBpqpGADKPDeOP0/dAsrKY9LL+ZI/Xs4quTWw73Mr+SmRvA</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABTS/XMEa8bzkJqyXLafhcc1+6t8rgcIbdUl4EuKkLu4AAAAAAOgAAAAAIAACAAAACKVkziWhzBgOlCKA9oygFCKh+RXOQfdc1HmkLkbAKnuDAAAADGmyzAF3jdc3YJQm8TQNkPBz9MCj28gUCTPl7ku8xxn50WOFcE4UyA4sO0qiDLbjVAAAAAaASNccpybf5skRB7D7AmprFCzJdlYHWGhauKnnTSgzZsZXV1TkoBXoWCBdSJWn/YPYM+vvZjwitmie3LqyO+rQ</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
     <DTS:PackageParameter
@@ -118,7 +41,7 @@
         <DTS:Property
           DTS:DataType="8"
           DTS:Name="ParameterValue"
-          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABuU8F5BnwtHHwUDmcHVbOR5MB4zoC2mV3a4/ghrD3xdgAAAAAOgAAAAAIAACAAAABaYwIBOvZvteJrxTKN+33R/lgzqTpSEXx35ze3sNDkXxAAAAAB706/l8Z62q8m1MA0A06eQAAAAPJtfMrZe/C01LNSWo35RO9QV+K3SRgMq1KG22HH4kkKImGJd1n+4XeTohSEULNw8rHShuYu/F+aY+NapVp8EAk</DTS:Property>
+          Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADJVQdY8rjdyK6K8RUeTr6ehcKYhSkJrosZvYqRB+8FPQAAAAAOgAAAAAIAACAAAACSFykj6YxC8AKWQqohjyGecnzCY00dZ2vzWEWbTMOx0xAAAAAeIuLew0UYmWPYND929EpQQAAAAO1ZMWxBz6l6c/0CCo2BHlmdp3jVFcFkpp0y+5/JnAn8qYpKRi3fQ/IWBdG6oseOntNPUsHVpQJAwrTs1pYn3wY</DTS:Property>
       </DTS:Property>
     </DTS:PackageParameter>
   </DTS:PackageParameters>
@@ -206,7 +129,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="VarRunTime">
       <DTS:VariableValue
-        DTS:DataType="7">9/16/2020 8:25:47 PM</DTS:VariableValue>
+        DTS:DataType="7">9/17/2020 8:17:31 PM</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
@@ -562,7 +485,7 @@
                           dataType="System.String"
                           description="Derived Column Friendly Expression"
                           expressionType="Notify"
-                          name="FriendlyExpression">(DT_STR,128,1252)REPLACENULL(Morgage_insurance_company,"Dunatek")</property>
+                          name="FriendlyExpression">(DT_STR,128,1252)REPLACENULL(insurance_company,"Dunatek")</property>
                       </properties>
                     </outputColumn>
                   </outputColumns>
@@ -2501,17 +2424,17 @@
                   dataType="System.Int32"
                   description="Indicates whether to reuse an existing fuzzy-match index table or build a new one. The new index table can be temporary, persisted, or persisted and maintained."
                   name="MatchIndexOptions"
-                  typeConverter="tcMatchIndexOptions">1</property>
+                  typeConverter="tcMatchIndexOptions">2</property>
                 <property
                   dataType="System.Null"
                   description="Specifies the maximum amount of memory (MB) that this instance of the Fuzzy Lookup transformation can use.  If 0 is given, then the transform will dynamically adjust it's memory usage based upon it's requirements and available system memory."
                   expressionType="Notify"
                   name="MaxMemoryUsage" />
                 <property
-                  dataType="System.Null"
+                  dataType="System.String"
                   description="Specifies the name of the fuzzy-match index table to be reused or the table name in which a newly generated fuzzy-match index table will be written."
                   name="MatchIndexName"
-                  state="escaped" />
+                  state="escaped">FuzzyLookupMatchIndex</property>
                 <property
                   dataType="System.String"
                   description="Specifies the name of the reference table or view against which to match incoming records."
@@ -2555,14 +2478,15 @@
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Fuzzy Lookup_Mortgage _Insurance_CrossWalk.Connections[OleDbConnection]"
-                  connectionManagerID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL]"
+                  connectionManagerID="{0526AD98-9CA6-47E9-B75B-57C07B168D88}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL 1]"
                   description="Microsoft SQL Server connection and database in which the fuzzy lookup reference table is located and where the fuzzy match index table will be stored and accessed."
                   name="OleDbConnection" />
               </connections>
               <inputs>
                 <input
                   refId="Package\Data Flow Task\Fuzzy Lookup_Mortgage _Insurance_CrossWalk.Inputs[Fuzzy Lookup Input]"
+                  hasSideEffects="true"
                   name="Fuzzy Lookup Input">
                   <inputColumns>
                     <inputColumn
@@ -8074,6 +7998,7 @@
               <outputs>
                 <output
                   refId="Package\Data Flow Task\Fuzzy Lookup_Mortgage _Insurance_CrossWalk.Outputs[Fuzzy Lookup Output]"
+                  hasSideEffects="true"
                   name="Fuzzy Lookup Output">
                   <outputColumns>
                     <outputColumn
@@ -12234,8 +12159,8 @@ where [refTable].[MarketSourceCode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Lookup_Market_Source_&amp;_Market-Souce_Code.Connections[OleDbConnection]"
-                  connectionManagerID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL]"
+                  connectionManagerID="{0526AD98-9CA6-47E9-B75B-57C07B168D88}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL 1]"
                   description="Connection manager used to access lookup data."
                   name="OleDbConnection" />
               </connections>
@@ -12375,7 +12300,7 @@ where [refTable].[MarketSourceCode] = ?</property>
                 <property
                   dataType="System.String"
                   description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
+                  name="FastLoadOptions">TABLOCK</property>
                 <property
                   dataType="System.Int32"
                   description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
@@ -12384,8 +12309,8 @@ where [refTable].[MarketSourceCode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\OLE DB Destination 1.Connections[OleDbConnection]"
-                  connectionManagerID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL]"
+                  connectionManagerID="{0526AD98-9CA6-47E9-B75B-57C07B168D88}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL 1]"
                   description="The OLE DB runtime connection used to access the database."
                   name="OleDbConnection" />
               </connections>
@@ -13750,8 +13675,8 @@ where [refTable].[MarketSourceCode] = ?</property>
               <connections>
                 <connection
                   refId="Package\Data Flow Task\Salesforce Source.Connections[Salesforce]"
-                  connectionManagerID="Package.ConnectionManagers[Salesforce Connection Manager]"
-                  connectionManagerRefId="Package.ConnectionManagers[Salesforce Connection Manager]"
+                  connectionManagerID="{C2987F21-7A1D-4E69-8764-9F902794C66E}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[Salesforce Connection Manager]"
                   description="Salesforce Connection"
                   name="Salesforce" />
               </connections>
@@ -15257,325 +15182,6 @@ where [refTable].[MarketSourceCode] = ?</property>
       </DTS:ObjectData>
     </DTS:Executable>
     <DTS:Executable
-      DTS:refId="Package\Data_Flow_CrossWalk_Task"
-      DTS:CreationName="Microsoft.Pipeline"
-      DTS:Description="Data Flow Task"
-      DTS:DTSID="{68C34552-AC86-4FC2-AEA7-272E5EABDC7D}"
-      DTS:ExecutableType="Microsoft.Pipeline"
-      DTS:LocaleID="-1"
-      DTS:ObjectName="Data_Flow_CrossWalk_Task"
-      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
-      <DTS:Variables />
-      <DTS:ObjectData>
-        <pipeline
-          version="1">
-          <components>
-            <component
-              refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany"
-              componentClassID="Microsoft.FlatFileSource"
-              contactInfo="Flat File Source;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;1"
-              description="Flat File Source"
-              localeId="1033"
-              name="MortgageInsuranceCompany"
-              usesDispositions="true"
-              version="1">
-              <properties>
-                <property
-                  dataType="System.Boolean"
-                  description="Specifies whether zero-length columns are treated as null."
-                  name="RetainNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of an output column containing the file name. If no name is specified, no output column containing the file name will be generated."
-                  name="FileNameColumnName"></property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Connections[FlatFileConnection]"
-                  connectionManagerID="Package.ConnectionManagers[MorgageInsuranceCompany]"
-                  connectionManagerRefId="Package.ConnectionManagers[MorgageInsuranceCompany]"
-                  name="FlatFileConnection" />
-              </connections>
-              <outputs>
-                <output
-                  refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output]"
-                  name="Flat File Source Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompanyID]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[MortgageInsuranceCompanyID]"
-                      length="50"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompanyID]"
-                      name="MortgageInsuranceCompanyID"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompany]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[MortgageInsuranceCompany]"
-                      length="50"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompany]"
-                      name="MortgageInsuranceCompany"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[Insurance_Company]"
-                      codePage="1252"
-                      dataType="str"
-                      errorOrTruncationOperation="Conversion"
-                      errorRowDisposition="FailComponent"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[Insurance_Company]"
-                      length="50"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[Insurance_Company]"
-                      name="Insurance_Company"
-                      truncationRowDisposition="FailComponent">
-                      <properties>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the column uses the faster, locale-neutral parsing routines."
-                          name="FastParse">false</property>
-                        <property
-                          dataType="System.Boolean"
-                          description="Indicates whether the data is in binary format."
-                          name="UseBinaryFormat">false</property>
-                      </properties>
-                    </outputColumn>
-                  </outputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[MortgageInsuranceCompanyID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="MortgageInsuranceCompanyID" />
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[MortgageInsuranceCompany]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="MortgageInsuranceCompany" />
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].ExternalColumns[Insurance_Company]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Insurance_Company" />
-                  </externalMetadataColumns>
-                </output>
-                <output
-                  refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output]"
-                  isErrorOut="true"
-                  name="Flat File Source Error Output">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      codePage="1252"
-                      dataType="text"
-                      description="Flat File Source Error Output Column"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[Flat File Source Error Output Column]"
-                      name="Flat File Source Error Output Column" />
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-            <component
-              refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination"
-              componentClassID="Microsoft.OLEDBDestination"
-              contactInfo="OLE DB Destination;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved; http://www.microsoft.com/sql/support;4"
-              description="OLE DB Destination"
-              name="OLE DB Destination"
-              usesDispositions="true"
-              version="4">
-              <properties>
-                <property
-                  dataType="System.Int32"
-                  description="The number of seconds before a command times out.  A value of 0 indicates an infinite time-out."
-                  name="CommandTimeout">0</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the name of the database object used to open a rowset."
-                  name="OpenRowset">[dbo].[OLE DB Destination]</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies the variable that contains the name of the database object used to open a rowset."
-                  name="OpenRowsetVariable"></property>
-                <property
-                  dataType="System.String"
-                  description="The SQL command to be executed."
-                  name="SqlCommand"
-                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the column code page to use when code page information is unavailable from the data source."
-                  name="DefaultCodePage">1252</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Forces the use of the DefaultCodePage property value when describing character data."
-                  name="AlwaysUseDefaultCodePage">false</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies the mode used to access the database."
-                  name="AccessMode"
-                  typeConverter="AccessMode">3</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the values supplied for identity columns will be copied to the destination. If false, values for identity columns will be auto-generated at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepIdentity">false</property>
-                <property
-                  dataType="System.Boolean"
-                  description="Indicates whether the columns containing null will have null inserted in the destination. If false, columns containing null will have their default values inserted at the destination. Applies only if fast load is turned on."
-                  name="FastLoadKeepNulls">false</property>
-                <property
-                  dataType="System.String"
-                  description="Specifies options to be used with fast load.  Applies only if fast load is turned on."
-                  name="FastLoadOptions">TABLOCK,CHECK_CONSTRAINTS</property>
-                <property
-                  dataType="System.Int32"
-                  description="Specifies when commits are issued during data insertion.  A value of 0 specifies that one commit will be issued at the end of data insertion.  Applies only if fast load is turned on."
-                  name="FastLoadMaxInsertCommitSize">2147483647</property>
-              </properties>
-              <connections>
-                <connection
-                  refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Connections[OleDbConnection]"
-                  connectionManagerID="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}:external"
-                  connectionManagerRefId="Project.ConnectionManagers[DESKTOP-QURU3TA.STGQL]"
-                  description="The OLE DB runtime connection used to access the database."
-                  name="OleDbConnection" />
-              </connections>
-              <inputs>
-                <input
-                  refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
-                  errorOrTruncationOperation="Insert"
-                  errorRowDisposition="FailComponent"
-                  hasSideEffects="true"
-                  name="OLE DB Destination Input">
-                  <inputColumns>
-                    <inputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MortgageInsuranceCompanyID]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="MortgageInsuranceCompanyID"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MortgageInsuranceCompanyID]"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompanyID]" />
-                    <inputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[MortgageInsuranceCompany]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="MortgageInsuranceCompany"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MortgageInsuranceCompany]"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[MortgageInsuranceCompany]" />
-                    <inputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].Columns[Insurance_Company]"
-                      cachedCodepage="1252"
-                      cachedDataType="str"
-                      cachedLength="50"
-                      cachedName="Insurance_Company"
-                      externalMetadataColumnId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Insurance_Company]"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output].Columns[Insurance_Company]" />
-                  </inputColumns>
-                  <externalMetadataColumns
-                    isUsed="True">
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MortgageInsuranceCompanyID]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="MortgageInsuranceCompanyID" />
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[MortgageInsuranceCompany]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="MortgageInsuranceCompany" />
-                    <externalMetadataColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input].ExternalColumns[Insurance_Company]"
-                      codePage="1252"
-                      dataType="str"
-                      length="50"
-                      name="Insurance_Company" />
-                  </externalMetadataColumns>
-                </input>
-              </inputs>
-              <outputs>
-                <output
-                  refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Outputs[OLE DB Destination Error Output]"
-                  exclusionGroup="1"
-                  isErrorOut="true"
-                  name="OLE DB Destination Error Output"
-                  synchronousInputId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input]">
-                  <outputColumns>
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      dataType="i4"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorCode]"
-                      name="ErrorCode"
-                      specialFlags="1" />
-                    <outputColumn
-                      refId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      dataType="i4"
-                      lineageId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Outputs[OLE DB Destination Error Output].Columns[ErrorColumn]"
-                      name="ErrorColumn"
-                      specialFlags="2" />
-                  </outputColumns>
-                  <externalMetadataColumns />
-                </output>
-              </outputs>
-            </component>
-          </components>
-          <paths>
-            <path
-              refId="Package\Data_Flow_CrossWalk_Task.Paths[Flat File Source Output]"
-              endId="Package\Data_Flow_CrossWalk_Task\OLE DB Destination.Inputs[OLE DB Destination Input]"
-              name="Flat File Source Output"
-              startId="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany.Outputs[Flat File Source Output]" />
-          </paths>
-        </pipeline>
-      </DTS:ObjectData>
-    </DTS:Executable>
-    <DTS:Executable
       DTS:refId="Package\Execute SQL Delete_Data_Task"
       DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
@@ -15588,7 +15194,7 @@ where [refTable].[MarketSourceCode] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}"
+          SQLTask:Connection="{0526AD98-9CA6-47E9-B75B-57C07B168D88}"
           SQLTask:SqlStatementSource="delete from Bruck_Woldeselassie_QL where SourceName='LendingQB'" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
@@ -15605,15 +15211,15 @@ where [refTable].[MarketSourceCode] = ?</property>
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{BD5B7BA2-C44E-4555-86BB-583FA6175C41}"
-          SQLTask:SqlStatementSource="SELECT MAX(LastModifiedDate) AS MaxLastModifiedDate,  SourceName&#xA;    FROM [dbo].[Bruck_Woldeselassie_QL]&#xA;WHERE SourceName = ?&#xA;GROUP BY SourceName&#xA;&#x9;&#x9;  &#xA;&#x9;&#x9;&#x9;"
+          SQLTask:Connection="{0526AD98-9CA6-47E9-B75B-57C07B168D88}"
+          SQLTask:SqlStatementSource="&#xA;IF EXISTS (   SELECT [SourceName], MAX(LastModifiedDate) AS MaxLastModifiedDate                                    FROM  [dbo].[Bruck_Woldeselassie_QL]    &#x9;&#x9;&#x9;  WHERE SourceName = 'SalesForce'  &#x9;&#x9;&#x9;  GROUP BY [SourceName]   )         BEGIN       &#x9;          SELECT [SourceName], MAX(LastModifiedDate) AS MaxLastModifiedDate     &#x9;&#x9;&#x9;   &#x9;&#x9;&#x9;                    FROM   [dbo].[Bruck_Woldeselassie_QL]  &#x9;&#x9;&#x9;  WHERE SourceName = 'SalesForce' &#x9;&#x9;&#x9;  GROUP BY [SourceName]     &#x9;END      &#x9;ELSE      &#x9;BEGIN      &#x9;          SELECT ? AS [SourceName], DATEADD(YYYY,-6,GETDATE()) AS MaxLastModifiedDate   END&#xA;&#x9;&#x9;  &#xA;&#x9;&#x9;&#x9;"
           SQLTask:ResultType="ResultSetType_SingleRow" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
-          <SQLTask:ResultBinding
-            SQLTask:ResultName="MaxLastModifiedDate"
-            SQLTask:DtsVariableName="User::VarMaxLastModifiedDate" />
           <SQLTask:ResultBinding
             SQLTask:ResultName="SourceName"
             SQLTask:DtsVariableName="User::varSourceName" />
+          <SQLTask:ResultBinding
+            SQLTask:ResultName="MaxLastModifiedDate"
+            SQLTask:DtsVariableName="User::VarMaxLastModifiedDate" />
           <SQLTask:ParameterBinding
             SQLTask:ParameterName="0"
             SQLTask:DtsVariableName="User::varSourceName"
@@ -15632,11 +15238,11 @@ where [refTable].[MarketSourceCode] = ?</property>
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute_QL_Bruck_woldeselassie_Log_SQL_Task"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2019; © 2019 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
-      DTS:ThreadHint="1">
+      DTS:ThreadHint="0">
       <DTS:Variables />
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
-          SQLTask:Connection="{F7DEF598-FA83-4973-A2C7-2C7955256B4A}"
+          SQLTask:Connection="{B1DC5810-F3BB-461D-AFA8-6CA98D7A1A23}"
           SQLTask:SqlStatementSource="INSERT INTO  QL_Bruck_woldeselassie_Log&#xA;values&#xA;(&#xA; ?&#xA;,?&#xA;,?&#xA;,?&#xA;,?&#xA;,?&#xA;,?&#xA;)" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
           <SQLTask:ParameterBinding
             SQLTask:ParameterName="0"
@@ -15701,6 +15307,14 @@ where [refTable].[MarketSourceCode] = ?</property>
       DTS:LogicalAnd="True"
       DTS:ObjectName="Constraint 1"
       DTS:To="Package\Execute SQL Delete_Data_Task" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 2]"
+      DTS:CreationName=""
+      DTS:DTSID="{FBF380CB-65A9-45D1-BBE6-17DD8B2FA548}"
+      DTS:From="Package\Data Flow Task"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 2"
+      DTS:To="Package\Execute_QL_Bruck_woldeselassie_Log_SQL_Task" />
   </DTS:PrecedenceConstraints>
   <DTS:EventHandlers>
     <DTS:EventHandler
@@ -15727,6 +15341,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:refId="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task"
           DTS:CreationName="Microsoft.ExecuteSQLTask"
           DTS:Description="Execute SQL Task"
+          DTS:Disabled="True"
           DTS:DTSID="{5ABDF090-B569-4ED0-8850-AE00AE08DC33}"
           DTS:ExecutableType="Microsoft.ExecuteSQLTask"
           DTS:LocaleID="-1"
@@ -15786,6 +15401,7 @@ where [refTable].[MarketSourceCode] = ?</property>
           DTS:refId="Package.EventHandlers[OnError]\Script Task"
           DTS:CreationName="Microsoft.ScriptTask"
           DTS:Description="Script Task"
+          DTS:Disabled="True"
           DTS:DTSID="{5F53FBA2-EEF2-47E0-A817-C720C75AB397}"
           DTS:ExecutableType="Microsoft.ScriptTask"
           DTS:LocaleID="-1"
@@ -15799,241 +15415,6 @@ where [refTable].[MarketSourceCode] = ?</property>
               Language="CSharp"
               ReadOnlyVariables="System::PackageName,System::StartTime,User::varBody,User::varFromEmail,User::varPassword,User::varSmtpClient,User::varSmtpServerPort,User::varSubject,User::varToEmail"
               ReadWriteVariables="System::ErrorCode,System::ErrorDescription">
-              <ProjectItem
-                Name="Properties\AssemblyInfo.cs"
-                Encoding="UTF8"><![CDATA[using System.Reflection;
-using System.Runtime.CompilerServices;
-
-//
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-//
-[assembly: AssemblyTitle("ST_85b96c8d55f645bb8294c856bde312ed")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ST_85b96c8d55f645bb8294c856bde312ed")]
-[assembly: AssemblyCopyright("Copyright @  2020")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
-//
-// Version information for an assembly consists of the following four values:
-//
-//      Major Version
-//      Minor Version 
-//      Build Number
-//      Revision
-//
-// You can specify all the values or you can default the Revision and Build Numbers 
-// by using the '*' as shown below:
-
-[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
-              <ProjectItem
-                Name="Properties\Resources.resx"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-</root>]]></ProjectItem>
-              <ProjectItem
-                Name="ST_85b96c8d55f645bb8294c856bde312ed.csproj"
-                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{e08cb3fd-fabc-4800-87b6-527ab8ab2eed}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ST_85b96c8d55f645bb8294c856bde312ed</RootNamespace>
-    <AssemblyName>ST_85b96c8d55f645bb8294c856bde312ed</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
-    <TargetFrameworkProfile></TargetFrameworkProfile>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>.\bin\Debug\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <DebugSymbols>false</DebugSymbols>
-    <Optimize>true</Optimize>
-    <OutputPath>.\bin\Release\</OutputPath>
-    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Windows.Forms" />
-    <Reference Include="System.Xml" />
-    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
-  </ItemGroup>
-  <ItemGroup>
-    <AppDesigner Include="Properties\" />
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMain.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <!-- Include the build rules for a C# project.-->
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ProjectExtensions>
-    <VisualStudio>
-      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
-        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
-        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
-        <ProjectClient>
-          <HostIdentifier>SSIS_ST150</HostIdentifier>
-        </ProjectClient>
-      </FlavorProperties>
-    </VisualStudio>
-  </ProjectExtensions>
-</Project>]]></ProjectItem>
               <ProjectItem
                 Name="ScriptMain.cs"
                 Encoding="UTF8"><![CDATA[#region Help:  Introduction to the script task
@@ -16181,25 +15562,124 @@ namespace ST_85b96c8d55f645bb8294c856bde312ed
 	}
 }]]></ProjectItem>
               <ProjectItem
-                Name="Project"
-                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
-<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
-  <msb:PropertyGroup>
-    <msb:CodeName>ST_85b96c8d55f645bb8294c856bde312ed</msb:CodeName>
-    <msb:Language>msBuild</msb:Language>
-    <msb:DisplayName>ST_85b96c8d55f645bb8294c856bde312ed</msb:DisplayName>
-    <msb:ProjectId>{63CF98BC-3BAF-4ED5-A591-CEBC624CBD8F}</msb:ProjectId>
-  </msb:PropertyGroup>
-  <msb:ItemGroup>
-    <msb:Project Include="ST_85b96c8d55f645bb8294c856bde312ed.csproj" />
-    <msb:File Include="Properties\Settings.Designer.cs" />
-    <msb:File Include="Properties\Settings.settings" />
-    <msb:File Include="Properties\AssemblyInfo.cs" />
-    <msb:File Include="Properties\Resources.resx" />
-    <msb:File Include="Properties\Resources.Designer.cs" />
-    <msb:File Include="ScriptMain.cs" />
-  </msb:ItemGroup>
-</c:Project>]]></ProjectItem>
+                Name="Properties\Resources.resx"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+</root>]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.Designer.cs"
                 Encoding="UTF8"><![CDATA[//------------------------------------------------------------------------------
@@ -16229,6 +15709,142 @@ namespace ST_85b96c8d55f645bb8294c856bde312ed.Properties {
         }
     }
 }]]></ProjectItem>
+              <ProjectItem
+                Name="ST_85b96c8d55f645bb8294c856bde312ed.csproj"
+                Encoding="UTF8"><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectTypeGuids>{30D016F9-3734-4E33-A861-5E7D899E18F3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{e08cb3fd-fabc-4800-87b6-527ab8ab2eed}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ST_85b96c8d55f645bb8294c856bde312ed</RootNamespace>
+    <AssemblyName>ST_85b96c8d55f645bb8294c856bde312ed</AssemblyName>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>true</ResolveAssemblyReferenceIgnoreTargetFrameworkAttributeVersionMismatch>
+    <TargetFrameworkProfile></TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.SqlServer.ManagedDTS, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.SqlServer.ScriptTask, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ScriptMain.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <!-- Include the build rules for a C# project.-->
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{30D016F9-3734-4E33-A861-5E7D899E18F3}">
+        <ProjectProperties HostName="ScriptTask" HostPackage="{B3A685AA-7EAF-4BC6-9940-57959FA5AC07}" ApplicationType="usd" Language="cs" TemplatesPath="" DebugInfoCommandLine="" DebugInfoWorkingDir="" IconImageList="" />
+        <Host Name="ScriptTask" GeneratedNamespace="$safeprojectname" IconIndex=""></Host>
+        <ProjectClient>
+          <HostIdentifier>SSIS_ST150</HostIdentifier>
+        </ProjectClient>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>]]></ProjectItem>
+              <ProjectItem
+                Name="Project"
+                Encoding="UTF16LE"><![CDATA[<?xml version="1.0" encoding="UTF-16" standalone="yes"?>
+<c:Project xmlns:c="http://schemas.microsoft.com/codeprojectml/2010/08/main" xmlns:msb="http://schemas.microsoft.com/developer/msbuild/2003" runtimeVersion="4.0" schemaVersion="1.0">
+  <msb:PropertyGroup>
+    <msb:CodeName>ST_85b96c8d55f645bb8294c856bde312ed</msb:CodeName>
+    <msb:Language>msBuild</msb:Language>
+    <msb:DisplayName>ST_85b96c8d55f645bb8294c856bde312ed</msb:DisplayName>
+    <msb:ProjectId>{63CF98BC-3BAF-4ED5-A591-CEBC624CBD8F}</msb:ProjectId>
+  </msb:PropertyGroup>
+  <msb:ItemGroup>
+    <msb:Project Include="ST_85b96c8d55f645bb8294c856bde312ed.csproj" />
+    <msb:File Include="Properties\Settings.Designer.cs" />
+    <msb:File Include="Properties\Settings.settings" />
+    <msb:File Include="Properties\AssemblyInfo.cs" />
+    <msb:File Include="Properties\Resources.resx" />
+    <msb:File Include="Properties\Resources.Designer.cs" />
+    <msb:File Include="ScriptMain.cs" />
+  </msb:ItemGroup>
+</c:Project>]]></ProjectItem>
+              <ProjectItem
+                Name="Properties\AssemblyInfo.cs"
+                Encoding="UTF8"><![CDATA[using System.Reflection;
+using System.Runtime.CompilerServices;
+
+//
+// General Information about an assembly is controlled through the following 
+// set of attributes. Change these attribute values to modify the information
+// associated with an assembly.
+//
+[assembly: AssemblyTitle("ST_85b96c8d55f645bb8294c856bde312ed")]
+[assembly: AssemblyDescription("")]
+[assembly: AssemblyConfiguration("")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("ST_85b96c8d55f645bb8294c856bde312ed")]
+[assembly: AssemblyCopyright("Copyright @  2020")]
+[assembly: AssemblyTrademark("")]
+[assembly: AssemblyCulture("")]
+//
+// Version information for an assembly consists of the following four values:
+//
+//      Major Version
+//      Minor Version 
+//      Build Number
+//      Revision
+//
+// You can specify all the values or you can default the Revision and Build Numbers 
+// by using the '*' as shown below:
+
+[assembly: AssemblyVersion("1.0.*")]]]></ProjectItem>
               <ProjectItem
                 Name="Properties\Settings.settings"
                 Encoding="UTF8"><![CDATA[<?xml version='1.0' encoding='iso-8859-1'?>
@@ -16450,11 +16066,11 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <DTS:PrecedenceConstraint
           DTS:refId="Package.EventHandlers[OnError].PrecedenceConstraints[Constraint]"
           DTS:CreationName=""
-          DTS:DTSID="{D6E096FC-0A6A-4F0A-B235-F9133E828706}"
-          DTS:From="Package.EventHandlers[OnError]\Script Task"
+          DTS:DTSID="{651A2CD9-3AC3-4149-AF76-0F6972696838}"
+          DTS:From="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task"
           DTS:LogicalAnd="True"
           DTS:ObjectName="Constraint"
-          DTS:To="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task" />
+          DTS:To="Package.EventHandlers[OnError]\Script Task" />
       </DTS:PrecedenceConstraints>
     </DTS:EventHandler>
     <DTS:EventHandler
@@ -16577,10 +16193,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           Id="Package\Data Flow Task"
           TopLeft="593,303" />
         <NodeLayout
-          Size="211,42"
-          Id="Package\Data_Flow_CrossWalk_Task"
-          TopLeft="83,118" />
-        <NodeLayout
           Size="259,42"
           Id="Package\Execute SQ_Max_Modified_Date_Task"
           TopLeft="561,113" />
@@ -16660,6 +16272,40 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 2]"
+          TopLeft="593,324">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-205,-47"
+              Start="0,0"
+              End="-197.5,-47">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-98.5,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-98.5,0"
+                    Point2="-102.5,0"
+                    Point3="-102.5,-4" />
+                  <mssgle:LineSegment
+                    End="-102.5,-43" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-102.5,-43"
+                    Point2="-102.5,-47"
+                    Point3="-106.5,-47" />
+                  <mssgle:LineSegment
+                    End="-197.5,-47" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </Package>
@@ -16667,7 +16313,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
     design-time-name="Package.EventHandlers[OnError]">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="296,42"
           Id="Package.EventHandlers[OnError]\Execute_Quicken_Loans_ETL_Error_Log_Task"
@@ -16678,38 +16324,36 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="632,88" />
         <EdgeLayout
           Id="Package.EventHandlers[OnError].PrecedenceConstraints[Constraint]"
-          TopLeft="632,109">
+          TopLeft="413,70">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-219,-39"
+              EndConnector="219,39"
               Start="0,0"
-              End="-211.5,-39">
+              End="211.5,39">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-105.5,0" />
+                    End="105.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-105.5,0"
-                    Point2="-109.5,0"
-                    Point3="-109.5,-4" />
+                    Point1="105.5,0"
+                    Point2="109.5,0"
+                    Point3="109.5,4" />
                   <mssgle:LineSegment
-                    End="-109.5,-35" />
+                    End="109.5,35" />
                   <mssgle:CubicBezierSegment
-                    Point1="-109.5,-35"
-                    Point2="-109.5,-39"
-                    Point3="-113.5,-39" />
+                    Point1="109.5,35"
+                    Point2="109.5,39"
+                    Point3="113.5,39" />
                   <mssgle:LineSegment
-                    End="-211.5,-39" />
+                    End="211.5,39" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -16747,7 +16391,7 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
         <NodeLayout
           Size="162,42"
           Id="Package\Data Flow Task\Salesforce Source"
-          TopLeft="49,17" />
+          TopLeft="78,6" />
         <NodeLayout
           Size="255,42"
           Id="Package\Data Flow Task\Derived Column_Mortgage_insurance"
@@ -16774,18 +16418,30 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
           TopLeft="10,226" />
         <EdgeLayout
           Id="Package\Data Flow Task.Paths[Salesforce Source Output]"
-          TopLeft="211,39.8333333333335">
+          TopLeft="240,27">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="571.222222222222,0"
+              EndConnector="542.222222222222,14.666666666667"
               Start="0,0"
-              End="563.722222222222,0">
+              End="534.722222222222,14.666666666667">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="563.722222222222,0" />
+                    End="267.111111111111,0" />
+                  <mssgle:CubicBezierSegment
+                    Point1="267.111111111111,0"
+                    Point2="271.111111111111,0"
+                    Point3="271.111111111111,4" />
+                  <mssgle:LineSegment
+                    End="271.111111111111,10.666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="271.111111111111,10.666666666667"
+                    Point2="271.111111111111,14.666666666667"
+                    Point3="275.111111111111,14.666666666667" />
+                  <mssgle:LineSegment
+                    End="534.722222222222,14.666666666667" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -17037,71 +16693,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</BinaryItem>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Data Flow Task\Fuzzy Lookup_Mortgage _Insurance_CrossWalk">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Data_Flow_CrossWalk_Task">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Data_Flow_CrossWalk_Task\OLE DB Destination"
-          TopLeft="263,281" />
-        <NodeLayout
-          Size="214,42"
-          Id="Package\Data_Flow_CrossWalk_Task\MortgageInsuranceCompany"
-          TopLeft="211,93" />
-        <EdgeLayout
-          Id="Package\Data_Flow_CrossWalk_Task.Paths[Flat File Source Output]"
-          TopLeft="318,135">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="30.5,146"
-              Start="0,0"
-              End="30.5,138.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,69" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,69"
-                    Point2="0,73"
-                    Point3="4,73" />
-                  <mssgle:LineSegment
-                    End="26.5,73" />
-                  <mssgle:CubicBezierSegment
-                    Point1="26.5,73"
-                    Point2="30.5,73"
-                    Point3="30.5,77" />
-                  <mssgle:LineSegment
-                    End="30.5,138.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Data_Flow_CrossWalk_Task\OLE DB Destination">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>

@@ -2,18 +2,33 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>QL_Bruck_Woldeselassie_SSIS_Packeges</Name>
-    <LastWriteTime>2020-09-17T02:52:05.5220268Z</LastWriteTime>
+    <LastWriteTime>2020-09-20T21:08:06.3027017Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Pkg_Bruck_Woldeselassie_LendingQLB.dtsx</Name>
-      <LastWriteTime>2020-09-17T03:22:43.7104715Z</LastWriteTime>
+      <LastWriteTime>2020-09-19T01:05:03.2530311Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Pkg_Bruck_Woldeselassiee_QuickenLoan.dtsx</Name>
-      <LastWriteTime>2020-09-14T22:41:53.0020261Z</LastWriteTime>
+      <LastWriteTime>2020-09-18T00:16:52.074543Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pkg_Bruck_Woldeselassiee_UberWriter.dtsx</Name>
+      <LastWriteTime>2020-09-18T03:12:12.1325797Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pkg_Bruck_Woldeselassie_LendingPad.dtsx</Name>
+      <LastWriteTime>2020-09-21T04:13:39.6019166Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>Pkg_Bruck_Woldeselassie_LendingPad 1.dtsx</Name>
+      <LastWriteTime>2020-09-20T19:49:51.7821875Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
