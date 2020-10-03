@@ -10,7 +10,6 @@
         <WinAuthDomain />
         <ServerName />
         <PathOnServer />
-        <StartObjectID>Pkg_Bruck_Woldeselassie_LendingQLB.dtsx</StartObjectID>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>

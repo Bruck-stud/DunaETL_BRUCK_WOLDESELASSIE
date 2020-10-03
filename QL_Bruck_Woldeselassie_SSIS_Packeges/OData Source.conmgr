@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0"?>
 <DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
-  DTS:DelayValidation="True"
   DTS:ObjectName="OData Source"
   DTS:DTSID="{55B09714-C8A5-4E15-A98E-73D8D9E74A4E}"
   DTS:CreationName="ODATA">
   <DTS:PropertyExpression
     DTS:Name="ConnectionString">@[$Project::ODataSource_ConnectionString]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Password">@[$Project::ODataSource_Password]</DTS:PropertyExpression>
   <DTS:ObjectData>
     <ODataConnectionManager
       UserName="sharepoint@dunatk.com"
@@ -15,7 +16,7 @@
       AuthType="MicrosoftOnlineService"
       ConnectByProxy="False">
       <Password
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAACAAAAAAAQZgAAAAEAACAAAADA/SYqzuZ9o7I0wqyxV8eSklFJyde0l1CdzguzLX8CJwAAAAAOgAAAAAIAACAAAADOm62spg2+pb9d4vCaSxwNp3ZWrGqA2B2wTLvYXzv4ekAAAAC21FvOMgAAy/pkW5yCE1x0NeroblkyysDypvdqAkFTse19Ms74dynaI+EkFRsrqfC7sPH6dFXVfweU8d8OY3BaQAAAADZ34jkcfCfJPFja9+CTQ//Gf1+67ERbytv/aulf3hiX/DmfeKsOpFg0rU1HNk8mXS8bvS9rMZDWkuUrHlgqj0M=</Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfd+GxeUNvEiEX/a2bmaykgAAAAACAAAAAAAQZgAAAAEAACAAAABods5giEYxopsvtSmA9e9Wam0D5ygwKFrgzyMya8nKawAAAAAOgAAAAAIAACAAAACvjiZIEJynn+hdNtqt6t0CeXFCrWYPHyIFcALcMKTZEkAAAABMN0NLu1nmHaOjUjDWxiK4MyZ2ISaF6sb+301vLARrtIKx8ZaatS5Qty2mwj3M8IGSLZPN9A/VqjCoXAidDqrxQAAAAICOSERait1WyvuTEG5vZo/efIoXIJsrzzdvj7VPt5pMo1Gpx5tfqlAiwE2QFbtmG1Iocd0RsBB+Rp3RAC1oGPM=</Password>
     </ODataConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
